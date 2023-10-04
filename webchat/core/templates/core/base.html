@@ -6,10 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}{% endblock %} Talladega Chat</title>
-    <link href="{% static 'styles.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/tailwindcss/base.css' %}">
+    <link rel="stylesheet" href="{% static '/tailwindcss/components.css' %}">
+    <link rel="stylesheet" href="{% static '/tailwindcss/utilities.css' %}">
     <script src="https://cdn.tailwindcss.com"></script>
     
     <style>
+        .chat-messages {
+            height: 400px;
+            overflow-y: auto;
+        }
+
         .messages {
             height: 400px;
             overflow-y: auto;
@@ -43,7 +50,7 @@
     {% endblock %}
 
     <div class="p-10 lg:p-20 text-center">
-        <h1 class="text-3xl lg:text-6xl text-white">Web Chat App</h1>
+        <h1 class="text-3xl lg:text-6xl text-white">>Thabhelo Duve</h1>
     </div>
     
 </body>

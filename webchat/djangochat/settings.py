@@ -78,6 +78,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'djangochat.wsgi.application'
 ASGI_APPLICATION = 'djangochat.asgi.application'
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer' #handlingmessages redis 
+    }
+
+}
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -132,9 +138,9 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-TAILWIND_APP_NAME = 'Djangochat'
+TAILWIND_APP_NAME = 'web-chatapp'
 STATICFILES_DIRS = [
     
-    os.path.join(BASE_DIR, 'Djangochat', 'static'),
+    os.path.join(BASE_DIR, 'web-chatapp', 'static'),
 ]
 

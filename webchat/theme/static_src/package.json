@@ -11,7 +11,7 @@
     "tailwindcss": "node ./node_modules/tailwindcss/lib/cli.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thabhelo Duve",
   "license": "MIT",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
