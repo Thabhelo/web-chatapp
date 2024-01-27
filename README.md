@@ -17,7 +17,7 @@ Talladega Chat is a web-based chat application that enables real-time communicat
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/talladega-chat.git
+   git clone https://github.com/thabhelo/talladega-chat.git
    ```
 
 2. Install dependencies:
@@ -69,5 +69,3 @@ Talladega Chat is released under the [MIT License](https://opensource.org/licens
 ## Contact
 
 For any questions or inquiries, please contact the Talladega Chat team at thabhelo.duve@talladega.edu.
-
-Enjoy using Talladega Chat for your real-time communication needs!
